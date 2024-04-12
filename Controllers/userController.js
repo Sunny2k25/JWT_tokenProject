@@ -42,7 +42,7 @@ const handleUserLogin = (req,res)=>{
     })
 }
 catch(err){
-    res.json({"message":"This is wrong",err:err}).status(500)
+    res.json({"message":"This is error",err:err}).status(500)
 
 
 }
